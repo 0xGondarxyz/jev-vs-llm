@@ -12,7 +12,7 @@ const NAMES: Record<string, string> = {
 export default function Page() {
   const [pick, setPick] = useState(sample[0]);
   const [message, setMessage] = useState(sample[0].text);
-  const [results, setResults] = useState<SortResult[]>([]);
+  const [results, setResults] = useState<Record<string, SortResult>>({});
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
 
@@ -22,27 +22,29 @@ export default function Page() {
     const next = sample[Math.floor(Math.random() * sample.length)];
     setPick(next);
     setMessage(next.text);
-    setResults([]);
+    setResults({});
   }
 
+  // One request per sorter, all at once, so each card appears the moment its answer is ready.
   async function sortIt() {
     setBusy(true);
     setError("");
-    setResults([]);
-    try {
-      const res = await fetch("/api/sort", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ message }),
-      });
-      const body = await res.json();
-      if (!res.ok) throw new Error(body.error);
-      setResults(body.results);
-    } catch (err) {
-      setError(err instanceof Error ? err.message : "Sorting failed. Check the server log.");
-    } finally {
-      setBusy(false);
-    }
+    setResults({});
+    await Promise.all(Object.keys(NAMES).map(async (sorter) => {
+      try {
+        const res = await fetch("/api/sort", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ message, sorter }),
+        });
+        const body = await res.json();
+        if (!res.ok) throw new Error(body.error);
+        setResults((prev) => ({ ...prev, [sorter]: body }));
+      } catch (err) {
+        setError(err instanceof Error ? err.message : "Sorting failed. Check the server log.");
+      }
+    }));
+    setBusy(false);
   }
 
   return (
@@ -70,7 +72,13 @@ export default function Page() {
       </div>
       {error && <p role="alert" style={{ color: "#c2362b", margin: 0 }}>{error}</p>}
       <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: 12 }}>
-        {results.map((r) => (
+        {busy && Object.keys(NAMES).filter((s) => !results[s]).map((s) => (
+          <section key={s} style={{ background: "#fff", borderRadius: 10, padding: 14, border: "2px dashed #d3dae2", order: 1 }}>
+            <h2 style={{ margin: "0 0 8px", fontSize: 16 }}>{NAMES[s]}</h2>
+            <p style={{ margin: 0, color: "#5b6673" }}>Thinking…</p>
+          </section>
+        ))}
+        {Object.values(results).map((r) => (
           <section key={r.sorter} style={{ background: "#fff", borderRadius: 10, padding: 14, border: `2px solid ${border(r, expected)}` }}>
             <h2 style={{ margin: "0 0 8px", fontSize: 16 }}>{NAMES[r.sorter] ?? r.sorter}</h2>
             <code style={{ fontWeight: 700, wordBreak: "break-word" }}>{r.error ? "error" : r.label || "(empty)"}</code>
