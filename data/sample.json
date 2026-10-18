@@ -1,0 +1,402 @@
+[
+  {
+    "text": "I go the wrong exchange rate applied to my purchase in a foreign country.",
+    "label": "card_payment_wrong_exchange_rate"
+  },
+  {
+    "text": "for some reason I am having a problem with verifying my identity.",
+    "label": "unable_to_verify_identity"
+  },
+  {
+    "text": "I just activated auto top-up, but it is not letting me enable it. Why not?",
+    "label": "automatic_top_up"
+  },
+  {
+    "text": "The exchange rate for my withdrawal isn't correct and doesn't match the actual exchange rate.",
+    "label": "wrong_exchange_rate_for_cash_withdrawal"
+  },
+  {
+    "text": "I'm not okay with this fee on my statement.",
+    "label": "extra_charge_on_statement"
+  },
+  {
+    "text": "The account transfer I was trying to do failed.",
+    "label": "beneficiary_not_allowed"
+  },
+  {
+    "text": "When can I order a disposable virtual card?",
+    "label": "get_disposable_virtual_card"
+  },
+  {
+    "text": "what's the process for getting a disposable virtual card?",
+    "label": "get_disposable_virtual_card"
+  },
+  {
+    "text": "Can I request a physical card?",
+    "label": "order_physical_card"
+  },
+  {
+    "text": "I found an unauthorized card payment",
+    "label": "card_payment_not_recognised"
+  },
+  {
+    "text": "can I have a non virtual card?",
+    "label": "order_physical_card"
+  },
+  {
+    "text": "is apple pay costly?",
+    "label": "apple_pay_or_google_pay"
+  },
+  {
+    "text": "How much is a cross currency exchange, and can I check to see if I have any discounts available?",
+    "label": "exchange_charge"
+  },
+  {
+    "text": "My American express is experiencing a problem with apple play with top up, can you fix it?",
+    "label": "apple_pay_or_google_pay"
+  },
+  {
+    "text": "I can't find my phone but it has all my credit card information.",
+    "label": "lost_or_stolen_phone"
+  },
+  {
+    "text": "Help me locate the nearest ATM.",
+    "label": "atm_support"
+  },
+  {
+    "text": "How can I transfer money to my account?",
+    "label": "transfer_into_account"
+  },
+  {
+    "text": "I received my new card, but I don't see it in the app anywhere.  What do I do?",
+    "label": "card_linking"
+  },
+  {
+    "text": "What are the rules to where I can use my card?",
+    "label": "card_acceptance"
+  },
+  {
+    "text": "Why doesn't the app believe I am who I say I am?",
+    "label": "unable_to_verify_identity"
+  },
+  {
+    "text": "What is the source of my funds.",
+    "label": "verify_source_of_funds"
+  },
+  {
+    "text": "Can the card be mailed and used in Europe?",
+    "label": "country_support"
+  },
+  {
+    "text": "How can I make my contactless work for the metro?",
+    "label": "contactless_not_working"
+  },
+  {
+    "text": "What is the process of obtaining a disposable virtual card",
+    "label": "get_disposable_virtual_card"
+  },
+  {
+    "text": "Is there an amount limit to my top-up?",
+    "label": "top_up_limits"
+  },
+  {
+    "text": "How do I change my information?",
+    "label": "edit_personal_details"
+  },
+  {
+    "text": "What is the minimum age?",
+    "label": "age_limit"
+  },
+  {
+    "text": "Where can cards be delivered?",
+    "label": "order_physical_card"
+  },
+  {
+    "text": "Heyy I tried to top up with my card today but it failed! I just got the couple days before but it has worked last time. What's going on, can you double check please?",
+    "label": "top_up_failed"
+  },
+  {
+    "text": "Will you handle EUR?",
+    "label": "fiat_currency_support"
+  },
+  {
+    "text": "can you tell me why my transfer failed?",
+    "label": "failed_transfer"
+  },
+  {
+    "text": "How much does it cost in fees to use your card?",
+    "label": "order_physical_card"
+  },
+  {
+    "text": "My new pin needs to be set.",
+    "label": "change_pin"
+  },
+  {
+    "text": "Do I qualify for a visa card?",
+    "label": "visa_or_mastercard"
+  },
+  {
+    "text": "I can't get my card to work.",
+    "label": "card_not_working"
+  },
+  {
+    "text": "Why is there a fee for an extra pound in my statement?",
+    "label": "extra_charge_on_statement"
+  },
+  {
+    "text": "What cards and currencies are supported?",
+    "label": "supported_cards_and_currencies"
+  },
+  {
+    "text": "i tried to withdraw money from an atm and i was declined on front of my friends. Why did this happen?",
+    "label": "declined_cash_withdrawal"
+  },
+  {
+    "text": "The ATM didn't let me get any cash",
+    "label": "declined_cash_withdrawal"
+  },
+  {
+    "text": "Is it possible for me to get money out in a different currency?",
+    "label": "receiving_money"
+  },
+  {
+    "text": "How do I go about setting up an account for my daughter?",
+    "label": "age_limit"
+  },
+  {
+    "text": "I tried to make a transfer and it was declined. Why?",
+    "label": "declined_transfer"
+  },
+  {
+    "text": "Can it be delivered by a specific date?",
+    "label": "card_delivery_estimate"
+  },
+  {
+    "text": "If I want to exchange currency, will there be extras?",
+    "label": "exchange_charge"
+  },
+  {
+    "text": "Why did it decline my payment?",
+    "label": "declined_card_payment"
+  },
+  {
+    "text": "I entered the wrong pin too many times and now I am blocked.  Help me unblock!",
+    "label": "pin_blocked"
+  },
+  {
+    "text": "How do I know which ATMs will accept this card?",
+    "label": "atm_support"
+  },
+  {
+    "text": "I made a withdraw from the ATM this past holiday and it seems like a was charged too much. If I would have   known about these charges I wouldn't have made a withdraw.",
+    "label": "wrong_exchange_rate_for_cash_withdrawal"
+  },
+  {
+    "text": "I lost my card",
+    "label": "lost_or_stolen_card"
+  },
+  {
+    "text": "Some of my card payments look different than where I purchased products from. Why is that?",
+    "label": "card_payment_not_recognised"
+  },
+  {
+    "text": "Do you know if my top-up has been cancelled?",
+    "label": "top_up_reverted"
+  },
+  {
+    "text": "I withdrew money but the full amount wasn't dispensed.",
+    "label": "wrong_amount_of_cash_received"
+  },
+  {
+    "text": "Is GBP a supported currency?",
+    "label": "receiving_money"
+  },
+  {
+    "text": "Will it automatically top-up if there isn't much money left?",
+    "label": "automatic_top_up"
+  },
+  {
+    "text": "Can I be given a new passcode?",
+    "label": "passcode_forgotten"
+  },
+  {
+    "text": "i was charged when i used a us issued card. why and what cards are free to use to add money",
+    "label": "top_up_by_card_charge"
+  },
+  {
+    "text": "I've notice I was charged for withdrawing cash, can you explain why?",
+    "label": "cash_withdrawal_charge"
+  },
+  {
+    "text": "Does it cost to exchange currencies with this card?",
+    "label": "exchange_charge"
+  },
+  {
+    "text": "I was taking out funds and was unable to regain my card.",
+    "label": "card_swallowed"
+  },
+  {
+    "text": "Send me a physical card",
+    "label": "order_physical_card"
+  },
+  {
+    "text": "how long do money transfers take?",
+    "label": "transfer_not_received_by_recipient"
+  },
+  {
+    "text": "I thought transfers were free, why was I charged a fee?",
+    "label": "transfer_fee_charged"
+  },
+  {
+    "text": "Do you use Mastercard or Visa?",
+    "label": "visa_or_mastercard"
+  },
+  {
+    "text": "I finally got my new card and was very excited to use it today. However, my payment kept declining. What is happening?",
+    "label": "declined_card_payment"
+  },
+  {
+    "text": "I need the right foreign money, at the right rate, at ATMs, when I go abroad.",
+    "label": "wrong_exchange_rate_for_cash_withdrawal"
+  },
+  {
+    "text": "I think my identity has been stolen, can you check on unauthorized charges?",
+    "label": "compromised_card"
+  },
+  {
+    "text": "Why is there an extra 1 pound charge on my card?",
+    "label": "extra_charge_on_statement"
+  },
+  {
+    "text": "I was charged for something I didn't expect",
+    "label": "transfer_fee_charged"
+  },
+  {
+    "text": "Why hasn't my balance increased after depositing a check?",
+    "label": "balance_not_updated_after_cheque_or_cash_deposit"
+  },
+  {
+    "text": "How long will it take for my transaction to be completed?",
+    "label": "transfer_not_received_by_recipient"
+  },
+  {
+    "text": "Where do I go to change GBP?",
+    "label": "exchange_via_app"
+  },
+  {
+    "text": "Where is the nearest bank machine?",
+    "label": "atm_support"
+  },
+  {
+    "text": "Do you support all cards and currencies?",
+    "label": "supported_cards_and_currencies"
+  },
+  {
+    "text": "Where should my card work?",
+    "label": "card_acceptance"
+  },
+  {
+    "text": "What fiat currencies are supported for holding and exchange?",
+    "label": "fiat_currency_support"
+  },
+  {
+    "text": "I completed an in country transfer a few days ago and was sure to check the account information several times since the transaction was completed, but the funds are still not available. What is the problem?",
+    "label": "transfer_not_received_by_recipient"
+  },
+  {
+    "text": "There's a debit on my account that I didn't do.",
+    "label": "direct_debit_payment_not_recognised"
+  },
+  {
+    "text": "Can I make multiple online transactions with my virtual card?",
+    "label": "virtual_card_not_working"
+  },
+  {
+    "text": "I received my new card, how is it activated?",
+    "label": "activate_my_card"
+  },
+  {
+    "text": "Why did I get a fee?",
+    "label": "cash_withdrawal_charge"
+  },
+  {
+    "text": "How do I deposit cash into my account?",
+    "label": "top_up_by_cash_or_cheque"
+  },
+  {
+    "text": "I can't pull my card out of the ATM. Help me.",
+    "label": "card_swallowed"
+  },
+  {
+    "text": "Will my transfer immediately show up in my account?",
+    "label": "transfer_timing"
+  },
+  {
+    "text": "What can you do to unblock my pin?",
+    "label": "pin_blocked"
+  },
+  {
+    "text": "How old do we have to be?",
+    "label": "age_limit"
+  },
+  {
+    "text": "Can I get a card even if I live outside the UK?",
+    "label": "country_support"
+  },
+  {
+    "text": "Do you know why my contactless won't work?",
+    "label": "contactless_not_working"
+  },
+  {
+    "text": "Where can I see the source of my money?",
+    "label": "verify_source_of_funds"
+  },
+  {
+    "text": "How long does a transfer take to be confirmed?",
+    "label": "pending_transfer"
+  },
+  {
+    "text": "I bought something overseas and the wrong exchange rate is on my statement.",
+    "label": "card_payment_wrong_exchange_rate"
+  },
+  {
+    "text": "Can I link another card to my account?",
+    "label": "card_linking"
+  },
+  {
+    "text": "It seems my top up is reverted?",
+    "label": "top_up_reverted"
+  },
+  {
+    "text": "What places will accept my card?",
+    "label": "card_acceptance"
+  },
+  {
+    "text": "How can I unlock the pin?",
+    "label": "pin_blocked"
+  },
+  {
+    "text": "I cannot use my card.",
+    "label": "card_not_working"
+  },
+  {
+    "text": "Where do I need to go in the app to enter my card info?",
+    "label": "card_linking"
+  },
+  {
+    "text": "Why is my top up still pending?",
+    "label": "pending_top_up"
+  },
+  {
+    "text": "Can I get some money exchanged?",
+    "label": "exchange_via_app"
+  },
+  {
+    "text": "What is the procedure for getting another card?",
+    "label": "getting_spare_card"
+  },
+  {
+    "text": "Can I use this app to change dollars into euros?",
+    "label": "exchange_via_app"
+  }
+]

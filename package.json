@@ -1,0 +1,26 @@
+{
+  "name": "jev-vs-llm",
+  "version": "1.0.0",
+  "description": "Jev vs. LLMs on 100 real bank customer messages: accuracy, speed and cost.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "sample": "tsx scripts/sample.ts",
+    "bench": "tsx scripts/bench.ts"
+  },
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@typesafe-ai/sdk": "^0.7.0",
+    "next": "^16.4.2",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "@types/react": "^19.3.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
