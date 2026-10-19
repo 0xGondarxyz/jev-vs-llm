@@ -14,6 +14,7 @@ export type SortResult = {
   outputTokens: number | null;
   reasoningTokens: number | null;
   confidence: number | null;
+  provider?: string; // which OpenRouter provider served the call
   raw: string;
   error?: string;
 };
@@ -101,6 +102,7 @@ export async function sortWithLLM(message: string, model: string): Promise<SortR
       outputTokens: body.usage?.completion_tokens ?? null,
       reasoningTokens: body.usage?.completion_tokens_details?.reasoning_tokens ?? null,
       confidence: null,
+      provider: body.provider,
       raw,
     };
   } catch (err) {

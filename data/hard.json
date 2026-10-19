@@ -1,0 +1,42 @@
+[
+  {
+    "text": "Where is my new card? I have been waiting a week!",
+    "label": "card_arrival"
+  },
+  {
+    "text": "Can I have my card delivered on a specific day?",
+    "label": "card_delivery_estimate"
+  },
+  {
+    "text": "Pending transfer?",
+    "label": "pending_transfer"
+  },
+  {
+    "text": "Where is the transaction I made to a friend?",
+    "label": "transfer_not_received_by_recipient"
+  },
+  {
+    "text": "My top-up isn't working.",
+    "label": "top_up_failed"
+  },
+  {
+    "text": "My top-up was reverted, why did this happen?",
+    "label": "top_up_reverted"
+  },
+  {
+    "text": "So what about the card PIN?",
+    "label": "get_physical_card"
+  },
+  {
+    "text": "How can I get a real-life card of my own?",
+    "label": "order_physical_card"
+  },
+  {
+    "text": "My latest payment was declined, I was told everything was back to working order. What happened?",
+    "label": "declined_card_payment"
+  },
+  {
+    "text": "My card appears to be broken how can I fix it?",
+    "label": "card_not_working"
+  }
+]

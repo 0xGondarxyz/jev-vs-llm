@@ -5,6 +5,7 @@ import type { SortResult } from "../lib/sorters";
 
 const NAMES: Record<string, string> = {
   jev: "Jev",
+  "deepseek/deepseek-v4.1-flash": "DeepSeek V4.1 Flash",
   "anthropic/claude-haiku-5.5": "Claude Haiku 5.5",
   "anthropic/claude-fable-5.1": "Claude Fable 5.1",
 };
@@ -48,10 +49,10 @@ export default function Page() {
   }
 
   return (
-    <main style={{ maxWidth: 760, margin: "0 auto", padding: "32px 16px", display: "grid", gap: 16 }}>
+    <main style={{ maxWidth: 920, margin: "0 auto", padding: "32px 16px", display: "grid", gap: 16 }}>
       <h1 style={{ margin: 0 }}>Jev vs. LLM</h1>
       <p style={{ margin: 0, color: "#5b6673" }}>
-        A bank customer writes in. Which of 77 support categories is it? Same message, same list, three sorters.
+        A bank customer writes in. Which of 77 support categories is it? Same message, same list, four sorters.
       </p>
       <label htmlFor="message" style={{ fontWeight: 600 }}>Customer message</label>
       <textarea
@@ -71,7 +72,7 @@ export default function Page() {
         {expected && <span style={{ color: "#5b6673" }}>Right answer: <code>{expected}</code></span>}
       </div>
       {error && <p role="alert" style={{ color: "#c2362b", margin: 0 }}>{error}</p>}
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: 12 }}>
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(190px, 1fr))", gap: 12 }}>
         {busy && Object.keys(NAMES).filter((s) => !results[s]).map((s) => (
           <section key={s} style={{ background: "#fff", borderRadius: 10, padding: 14, border: "2px dashed #d3dae2", order: 1 }}>
             <h2 style={{ margin: "0 0 8px", fontSize: 16 }}>{NAMES[s]}</h2>

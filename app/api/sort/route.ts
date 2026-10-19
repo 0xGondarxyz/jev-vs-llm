@@ -2,7 +2,7 @@
 // so each answer shows up the moment it is ready.
 import { sort } from "../../../lib/sorters";
 
-const SORTERS = ["jev", "anthropic/claude-haiku-5.5", "anthropic/claude-fable-5.1"];
+const SORTERS = ["jev", "deepseek/deepseek-v4.1-flash", "anthropic/claude-haiku-5.5", "anthropic/claude-fable-5.1"];
 
 export async function POST(request: Request) {
   const { message, sorter } = await request.json();
